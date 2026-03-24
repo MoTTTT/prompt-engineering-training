@@ -1,9 +1,9 @@
 # Prompt Engineering Training Programme
 
-**Edition**: 2.1 (7-module, includes real-world roles capstone)\
-**Date**: 2026-03-20\
-**Audience**: Development teams, DevOps engineers, architects, and technical leads adopting AI-assisted workflows\
-**Primary language**: Java / Spring AI. Python and Node.js/TypeScript equivalents throughout Modules 1–6.
+**Edition**: 2.2 (8-module, includes real-world roles capstone and AI Practitioner track)\
+**Date**: 2026-03-24\
+**Audience**: Development teams, DevOps engineers, architects, technical leads, professional services practitioners, and office professionals adopting AI-assisted workflows\
+**Primary language**: Java / Spring AI. Python and Node.js/TypeScript equivalents throughout Modules 1–6. Modules 1.02b, 5.03b, and 8 require no coding.
 
 ---
 
@@ -25,19 +25,22 @@
 
 ## Module Index
 
-Seven modules, ordered by priority. Start at Module 1 regardless of experience level.
+Eight modules plus track-specific variants. Start at Module 1 regardless of experience level.
 
 | Module | Title | Audience | Duration |
-|--------|-------|----------|----------|
+| ------ | ----- | -------- | -------- |
 | **1** | [Foundations and Prompt Design](modules/module-1-foundations/) | All participants | ~2 hours |
+| **1.02b** | [Prompt Design — Professional Track](modules/module-1-foundations/02b-prompt-design-professional.md) | Professional services (non-technical) | ~1 hour |
 | **2** | [Context, Memory, and RAG Architecture](modules/module-2-context-and-rag/) | Architects, senior developers | ~3 hours |
-| **3** | [Programming with AI APIs](modules/module-3-programming-with-ai-apis/) | Developers | ~4 hours |
+| **3** | [Programming with AI APIs](modules/module-3-programming-with-ai-apis/) | Developers | ~4.75 hours |
 | **4** | [Testing, Evaluation, and CI/CD](modules/module-4-testing-and-evaluation/) | Developers, DevOps | ~3 hours |
 | **5** | [Security and Trust](modules/module-5-security-and-trust/) | All technical participants | ~2.5 hours |
+| **5.03b** | [PII — Professional Services](modules/module-5-security-and-trust/03b-pii-professional-services.md) | Professional services (non-technical) | ~30 minutes |
 | **6** | [Enterprise Governance and Compliance](modules/module-6-enterprise-governance/) | Leads, architects, management | ~3 hours |
 | **7** | [Real-World Roles: Prompt Engineering in a Working Agent Team](modules/module-7-real-world-roles/) | All participants who have completed Module 1 | ~2.5 hours |
+| **8** | [AI for Office Professionals](modules/module-8-ai-practitioner/) | Non-technical office staff (M365 users) | ~2.5 hours |
 
-**Total**: ~20 hours (3.5-day instructor-led or self-paced over 2–3 weeks)
+**Total (full programme)**: ~20 hours. **Professional track**: ~4.5 hours. **AI Practitioner track**: ~3.5 hours.
 
 ---
 
@@ -86,6 +89,14 @@ The applied capstone module. Grounded in a real production multi-agent system �
 Three roles examined in depth: Infrastructure Operator (GitOps auditing, kubectl access, escalation patterns), Developer/Coder (schema-first testing, cost-aware context management, scope constraints), and Team Lead (decomposition, delegation, backlog orchestration). Section 04 synthesises all three into cross-role collaboration patterns, handoff design, and the failure modes that arise when agent boundaries blur.
 
 **Prerequisite:** Module 1. Recommended: Modules 3 and 4 before section 02.
+
+### Module 8 — AI for Office Professionals *(AI Practitioner track)*
+
+For non-technical staff who use Microsoft 365 (Word, Excel, PowerPoint, Outlook, Teams) as their primary tools. No coding required.
+
+Covers Microsoft 365 Copilot and equivalent tools, what can be automated and enriched in each application, safe use (de-identification, cloud data boundary, hallucination risk), and organisational governance (AI use policy, GDPR/POPIA, EU AI Act in plain language). Includes a practice exercise applying the ICIO prompt structure to a real task from the participant's own workload.
+
+**Prerequisite:** Module 1.01 and 1.02b (professional track).
 
 ---
 
