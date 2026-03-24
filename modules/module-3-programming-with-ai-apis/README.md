@@ -9,11 +9,12 @@ This is the primary developer content. Module 3 covers the full implementation s
 ## Sections
 
 | Section | Title | Estimated time |
-|---------|-------|---------------|
+| ------- | ----- | -------------- |
 | [01](01-api-fundamentals.md) | API Fundamentals | 45 minutes |
 | [02](02-prompt-design-patterns.md) | Prompt Design Patterns | 45 minutes |
 | [03](03-function-calling-and-tools.md) | Function Calling and Tools | 60 minutes |
 | [04](04-agentic-patterns.md) | Agentic Patterns | 30 minutes |
+| [05](05-engineering-workstation-tooling.md) | Engineering Workstation Tooling *(prompt-engineer track)* | 45 minutes |
 
 ---
 

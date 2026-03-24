@@ -13,6 +13,7 @@ Security is not a layer you add to an AI system after it is built — it is an a
 | [01](01-trust-boundaries.md) | Trust Boundaries | 40 minutes |
 | [02](02-prompt-injection-and-defence.md) | Prompt Injection and Defence | 50 minutes |
 | [03](03-secrets-and-pii.md) | Secrets and PII | 40 minutes |
+| [03b](03b-pii-professional-services.md) | PII — Professional Services variant *(professional track)* | 30 minutes |
 | [04](04-responsible-deployment.md) | Responsible Deployment | 30 minutes |
 
 ---

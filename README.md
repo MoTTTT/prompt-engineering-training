@@ -115,6 +115,30 @@ Module 1 → Module 3.04 → Module 5 → Module 7.01 → Module 7.04
 
 Module 1.03 → Module 3 → Module 4 → Module 5.02 → Module 7
 
+### Professional track
+
+*For non-technical professionals: researchers, report writers, consultants, legal and medico-legal practitioners, billing professionals.*
+
+Module 1.01 → Module 1.02b (professional) → Module 2.01 → Module 2.03 → Module 5.03b (professional services PII)
+
+No coding required. All examples use professional services workflows. Section 1.02b uses the **ICIO** acronym (Instruction, Context, Input Data, Output Indicator) and a medico-legal report worked example. Section 5.03b covers POPIA, GDPR, and de-identification for document-based professionals.
+
+### Prompt Engineer track
+
+*For developers and engineers building AI-assisted tooling and agent systems.*
+
+Module 1 → Module 2 → Module 3 (all sections including 3.05 — Engineering Workstation Tooling) → Module 4 → Module 5 → Module 7.02
+
+Section 3.05 covers: IDE AI plugins, secret management for AI development, internal vector databases (Qdrant, Weaviate), local LLMs (Ollama), and MCP servers.
+
+### AI Practitioner track
+
+*For non-technical office professionals who use Microsoft 365 (Word, Excel, PowerPoint, Outlook, Teams) as primary tools.*
+
+Module 1.01 → Module 1.02b (professional) → Module 8 (AI for Office Professionals)
+
+Module 8 covers M365 Copilot and equivalent tools, what can be automated and enriched, security for office AI (de-identification, cloud boundary, hallucination risk), and governance and compliance (GDPR/POPIA, AI use policy, EU AI Act). No coding required.
+
 ---
 
 ## Code Examples
