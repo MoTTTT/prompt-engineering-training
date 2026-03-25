@@ -4,17 +4,26 @@
 
 ## Completed sections
 
-_(none yet — session in progress)_
+- Module 6.04 — LLMOps / cost management (applied: token economics, prompt caching, model tiering, offloading strategy)
+- Module 3.04 — Agentic patterns (applied: Human:Agent:Project workflow, task repo pattern, fleet vs aggregated agent design)
+- Module 2.03 — RAG architecture (applied: Qdrant as operational state store, baseline accumulation pattern)
+- Module 5.01/5.02 — Trust boundaries / prompt injection (applied: two-tier observability agent, data pipeline injection, untrusted input surfaces)
 
 ## Current position
 
-Session 1 in progress. Starting with financial operations / cost management (Martin's primary pain point), then moving to on-prem technical depth per priority module list.
+Next session: formal trust boundary design for the observability agent using Module 5 framework. Then Module 3.03 (function calling / MCP) for the observability fleet consolidation question.
+
+## Open question (carry forward)
+
+Trust boundary design for observability agent fleet — Tier 1 (scheduled/read) vs Tier 2 (triggered/write). MCP tool consolidation to reduce running processes. Martin to confirm incident management platform identity.
 
 ## Notes
 
-- Experienced platform architect — no need for basics. All explanations at architect/platform-operator level.
+- Experienced platform architect — all explanations at architect level, no basics needed
 - Has Ollama, Qdrant, MCP on-prem. GPU on roadmap.
-- Primary pain: overspent on API bills. Needs offloading strategy.
-- Has an observability agentic product on roadmap (status reporting, dev feedback, alerting, Telegram operator channel).
-- Also acting as Cycle 1 reviewer (C1-T001b) — collect improvement recommendations throughout.
-- Spring Java background — use Java/Spring examples where relevant.
+- Primary pain addressed this session: cost management, workspace structure, agent separation
+- Observability agent product is the primary applied use case driving module content
+- Also acting as Cycle 1 reviewer (C1-T001b) — collect improvement recommendations throughout
+- Spring Java background; DevSecOps / GitOps / Kubernetes context
+- Conversational Socratic tone confirmed working well
+- Prompt structuring is a conscious effort for Martin — worth noting as a recurring coaching point
